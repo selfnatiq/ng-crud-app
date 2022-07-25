@@ -1,0 +1,7 @@
+<h1>All People</h1>
+
+<app-person
+  *ngFor="let person of people"
+  [person]="person"
+  (deletePersonEvent)="deletePerson($event)"
+></app-person>

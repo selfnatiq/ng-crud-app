@@ -1,0 +1,5 @@
+<h1>Edit **{{ oldPerson.name }}**</h1>
+<app-person-form
+  [person]="person"
+  (submitEvent)="updatePerson($event)"
+></app-person-form>
